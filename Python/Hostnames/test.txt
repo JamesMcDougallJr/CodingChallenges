@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<!--/main.jsp-->
+<!-- WEB-INF/jspf/standardHeader.jsp -->
+<html lang="en-US">
+  <head>
+    <title>LINKS-Web Main Page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    <script type="text/javascript" src="/linksweb/javascript/jquery.js"></script>
+    
+
+    
+      
+      
+        
+          
+          <link rel="stylesheet" href="/linksweb/cache/103568fc71952ce98cf95543c8b82225/css/jquery-ui/jquery-ui.css;jsessionid=0119CA0201B66470E188CA66C5D01116">
+        
+          
+          <link rel="stylesheet" href="/linksweb/cache/5.25.1/siisweb.css;jsessionid=0119CA0201B66470E188CA66C5D01116">
+        
+        
+        <link rel="stylesheet" href="/linksweb/cache/dd279533025b49ab9423a927997574d6/print.css;jsessionid=0119CA0201B66470E188CA66C5D01116" media="print">
+      
+    
+    
+      <!-- Set a global contextPath for javascript -->
+      <script>
+        document.contextPath="/linksweb";
+      </script>
+      
+        
+        <script src="/linksweb/cache/b8d64d0bc142b3f670cc0611b0aebcae/javascript/jquery.js;jsessionid=0119CA0201B66470E188CA66C5D01116"></script>
+      
+        
+        <script src="/linksweb/cache/3e00900f5c26b08a61e401abeea7eca8/javascript/jquery-ui.js;jsessionid=0119CA0201B66470E188CA66C5D01116"></script>
+      
+        
+        <script src="/linksweb/cache/730bfeb78666165e972575205d9ec0bb/javascript/reach.js;jsessionid=0119CA0201B66470E188CA66C5D01116"></script>
+      
+        
+        <script src="/linksweb/cache/2c51aa294d61224dc48f00920a73ee38/javascript/mainMenu.js;jsessionid=0119CA0201B66470E188CA66C5D01116"></script>
+      
+        
+        <script src="/linksweb/cache/ead1cdc7e08e36159c002a44c9c4422f/javascript/ui-js.jssp;jsessionid=0119CA0201B66470E188CA66C5D01116"></script>
+      
+        
+        <script src="/linksweb/cache/1f10281e64d459091d4b881e0c87f126/util.js;jsessionid=0119CA0201B66470E188CA66C5D01116"></script>
+      
+        
+        <script src="/linksweb/cache/da69550a74eab322b5aed00f2291b90e/javascript/ajax.jssp;jsessionid=0119CA0201B66470E188CA66C5D01116"></script>
+      
+    
+    
+    
+      <script>
+        $(document).ready(function() { activateSpinner(false); });
+      </script>
+    
+    <!-- Pendo Integration Begins here -->
+     
+
+<!-- pendoIntegrationSnippet.jspf -->
+<c:if test="false">
+  
+</c:if>
+    <script>
+		(function(apiKey){
+		    (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
+		    v=['initialize','identify','updateOptions','pageLoad'];for(w=0,x=v.length;w<x;++w)(function(m){
+		        o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
+		        y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo.io/agent/static/'+apiKey+'/pendo.js';
+		        z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
+		
+		        // Call this whenever information about your visitors becomes available
+		        // Please use Strings, Numbers, or Bools for value types.
+		        pendo.initialize({
+		            visitor: { 
+		            	id:              '',  // Required if user is logged in
+		            	stateName:       'LA', // Logged in State name
+		            	role:            '',  //Access Level of the user
+		            	orgId:           '', //Selected Org Id
+		            	orgName:         '', //Selected Org Name
+		            	facilityName:    '', //Selected Facility name
+		            },
+		            account: {
+		            	id:              '',  // Required if user is logged in
+		            	stateName:       'LA', // Logged in State name
+		            	role:            '', //Access Level of the user
+		            	orgId:           '', //Selected Org Id
+		            	orgName:         '', //Selected Org Name
+		            	facilityName:    '', //Selected Facility name
+		            }
+		        });
+		})('75abb551-da84-48dc-6db7-63d4c695151a');
+	</script>
+    <!-- Pendo Integration Ends here -->
+  </head>
+  
+  
+   
+   
+     <body onLoad="initSessionTimeout(true,false,1800);setNoSessionMainMenu(&quot;\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n\n\n\n\n&lt;!-- WEB-INF\/jspf\/mainMenu.jspf --&gt;\n\n\n\n\n\n\n\n\n\n  \n  \n  \n    \n      \n      \n        \n          \n         \n              &lt;img src=\&quot;\/linksweb\/images\/linksS.gif\&quot; alt=\&quot;logo\&quot;\n              height=\&quot;130\&quot; width=\&quot;130\&quot;&gt;\n         \n       \n    &lt;ul id=\&quot;nav\&quot;&gt;\n      \n&lt;!-- WEB-INF\/jspf\/menu\/homeMenuItems.jspf --&gt;\n\n\n\n\n\n\n\n\n&lt;li id=\&quot;MMI_1_TITLE\&quot; class=\&quot;open\&quot;&gt;&lt;span class=\&quot;nav_item\&quot;&gt;&lt;a id=\&quot;MMI_1_MENU\&quot; href=\&quot;javascript:navToggle('MMI_1_TITLE');save_menu_state();\&quot;&gt;Main&lt;\/a&gt;&lt;\/span&gt;\n\n  &lt;ul id=\&quot;MMI_1\&quot;&gt;\n      &lt;li&gt;\n        &lt;!-- If the user is not logged in enable the login link. Otherwise disable it --&gt;\n        \n          \n            &lt;a href=\&quot;\/linksweb\/main.jsp\&quot; class=\&quot;mainmenusub\&quot;&gt;Home&lt;\/a&gt;\n          \n          \n        \n      &lt;\/li&gt;\n      \n        &lt;li&gt;&lt;a href=\&quot;\/linksweb\/login.jsp;jsessionid=E8F43EB6E094E01BDE15FAA2D78F6EEA\&quot; class=\&quot;mainmenusub\&quot;&gt;Login&lt;\/a&gt;&lt;\/li&gt;\n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n  &lt;\/ul&gt;\n&lt;\/li&gt;\n\n\n      \n      \n      \n      \n        \r\n &lt;!-- WEB-INF\/jspf\/menu\/patientMenuItems.jspf --&gt;\r\n &lt;li id=\&quot;MMI_2_TITLE\&quot; class=\&quot;\&quot;&gt;&lt;span class=\&quot;nav_item\&quot;&gt;&lt;a id=\&quot;MMI_2_MENU\&quot; href=\&quot;javascript:navToggle('MMI_2_TITLE');save_menu_state();\&quot;&gt;Patient&lt;\/a&gt;&lt;\/span&gt;\n\r\n          &lt;!-- Enable the search link if an irms has been selected. If the client has access to\r\n                   add new patients then enable the Search\/Add link --&gt;\r\n          &lt;ul id=\&quot;MMI_2\&quot;&gt;\r\n            &lt;li&gt;\r\n              \r\n            \r\n              &lt;a class=\&quot;mainmenusubunavail\&quot;&gt;\r\n                \r\n                Search\r\n              &lt;\/a&gt;\r\n            \r\n            &lt;\/li&gt;\r\n            &lt;!-- If a patient and facility has been selected then enable the waitingroom link to display patient details.--&gt;\r\n            \r\n            &lt;!-- If a patient has been selected then enable the demographics link to display\r\n                       patient details. --&gt;\r\n            &lt;li&gt;\r\n              \r\n                \r\n                \r\n                  &lt;a class=\&quot;mainmenusubunavail\&quot;&gt;\r\n                \r\n              \r\n              Demographics\r\n              &lt;\/a&gt;\r\n            &lt;\/li&gt;\r\n            \r\n          \r\n          \r\n          \r\n          &lt;!-- If a patient has been selected then enable the insuranceInfo link to display. --&gt;\r\n          \r\n            \r\n          \r\n          &lt;li&gt;\r\n            \r\n          &lt;\/li&gt;\r\n        &lt;\/ul&gt;\r\n        &lt;\/li&gt;\n\n      \n      \n      \n        \r\n\r\n&lt;li id=\&quot;MMI_4_TITLE\&quot; class=\&quot;\&quot;&gt;&lt;span class=\&quot;nav_item\&quot;&gt;&lt;a id=\&quot;MMI_4_MENU\&quot; href=\&quot;javascript:navToggle('MMI_4_TITLE');save_menu_state();\&quot;&gt;Vaccinations&lt;\/a&gt;&lt;\/span&gt;\n\r\n  &lt;ul id=\&quot;MMI_4\&quot;&gt;\r\n    \r\n      \r\n      \r\n        &lt;li&gt;\r\n          &lt;a class=\&quot;mainmenusubunavail\&quot;&gt;\r\n            \r\n            View\r\n          &lt;\/a&gt;\r\n        &lt;\/li&gt;\r\n        &lt;li&gt;&lt;a class=\&quot;mainmenusubunavail\&quot;&gt;Forecast&lt;\/a&gt;&lt;\/li&gt;\r\n        &lt;li&gt;&lt;a class=\&quot;mainmenusubunavail\&quot;&gt;Summary&lt;\/a&gt;&lt;\/li&gt;\r\n      \r\n    \r\n    \r\n      \r\n    \r\n  &lt;\/ul&gt;\r\n&lt;\/li&gt;\n\n      \n      \n      \n      \n      \n      \n      \n      \n        \n        \n          \n          \n        \n      \n      \n      \n      \n      \n      \n      \n      \n            \n            \n      \r\n&lt;li id=\&quot;MMI_41_TITLE\&quot; class=\&quot;\&quot;&gt;&lt;span class=\&quot;nav_item\&quot;&gt;&lt;a id=\&quot;MMI_41_MENU\&quot; href=\&quot;javascript:navToggle('MMI_41_TITLE');save_menu_state();\&quot;&gt;Scheduled Reports&lt;\/a&gt;&lt;\/span&gt;\n\r\n  &lt;ul id=\&quot;MMI_41\&quot;&gt;\r\n   \r\n    &lt;li&gt;\r\n      &lt;a href=\&quot;\/linksweb\/scheduledReportReceived\/viewScheduledReports.do2\&quot; class=\&quot;mainmenusub\&quot; &gt;Received Reports&lt;\/a&gt;\r\n    &lt;\/li&gt;\r\n  &lt;\/ul&gt;\r\n&lt;\/li&gt;\n\n      \n        &lt;li class=\&quot;navBullet\&quot;&gt;\n          &lt;span class=\&quot;nav_item\&quot;&gt;\n            &lt;a class=\&quot;noline\&quot;\n              \n              &gt;Job Queue\n            &lt;\/a&gt;\n          &lt;\/span&gt;\n        &lt;\/li&gt;\n      \n      \n        &lt;li class=\&quot;navBullet\&quot;&gt;\n          &lt;span class=\&quot;nav_item\&quot;&gt;\n            &lt;a class=\&quot;noline\&quot;\n              \n              &gt;Change Password\n            &lt;\/a&gt;\n          &lt;\/span&gt;\n        &lt;\/li&gt;\n      \n      \n        \n        \n        \n      \n      \n      \n            \n            \n        &lt;li class=\&quot;navBullet\&quot;&gt;\n          &lt;span class=\&quot;nav_item\&quot;&gt;&lt;a href=\&quot;#\&quot; onClick=\&quot;openReach(); return false;\&quot; class=\&quot;noline\&quot;&gt;\n            Answers\n          &lt;\/a&gt;&lt;\/span&gt;\n        &lt;\/li&gt;\n      &lt;\/ul&gt;\n    \n  \n\r\n&lt;!-- REACH START --&gt;\r\n&lt;div id=\&quot;reach\&quot; style=\&quot;display:none;text-align:center;\&quot; title=\&quot;REACH - Roadmap to Education, Answers, Competency and Hints\&quot;&gt;\r\n\r\n  &lt;div class=\&quot;sideBox\&quot; id=\&quot;videoTraining\&quot;&gt;\r\n    &lt;div class=\&quot;reachInterior\&quot; style=\&quot;background: url('\/linksweb\/images\/film.png') no-repeat left;\&quot; onClick=\&quot;flyOut('videoTraining')\&quot;&gt;\r\n      &lt;h3&gt;Video Trainings&lt;\/h3&gt;\r\n      \r\n        \r\n        \r\n          &lt;div style=\&quot;font-size:10pt;font-weight:bold;text-align:center;\&quot;&gt;\r\n            &lt;img src=\&quot;\/linksweb\/images\/filmStrip.png\&quot; alt=\&quot;\&quot;&gt;\r\n          &lt;\/div&gt;\r\n        \r\n      \r\n    &lt;\/div&gt;\r\n  &lt;\/div&gt;\r\n\r\n  \r\n  &lt;div class=\&quot;sideBox\&quot;&gt;\r\n    \r\n    &lt;div class=\&quot;reachInterior\&quot; style=\&quot;background: url('\/linksweb\/images\/document.png;jsessionid=E8F43EB6E094E01BDE15FAA2D78F6EEA') no-repeat left;\&quot;&gt;\r\n      &lt;h3&gt;Documentation&lt;\/h3&gt;\r\n      &lt;div style=\&quot;font-size:10pt;text-align:center;\&quot;&gt;\r\n       \r\n        \r\n        \r\n          \r\n        \r\n      \r\n        \r\n        \r\n        &lt;a target=\&quot;_blank\&quot; href=\&quot;http:\/\/documentation.stchome.com\&quot;&gt;\r\n          LINKS Documentation Portal\r\n        &lt;\/a&gt;\r\n      &lt;\/div&gt;\r\n    &lt;\/div&gt;\r\n  &lt;\/div&gt;\r\n  \r\n\r\n\r\n\r\n  &lt;div class=\&quot;sideBox\&quot; id=\&quot;phoneList\&quot;&gt;\r\n    &lt;div class=\&quot;reachInterior\&quot; style=\&quot;background: url('\/linksweb\/images\/phone.png') no-repeat left;\&quot;&gt;\r\n      &lt;h3&gt;&lt;a href=\&quot;javascript:flyOut('phoneList');\&quot; class=\&quot;nolineonly\&quot; onClick=\&quot;helpRefCall=true;\&quot; id=\&quot;answerLine\&quot;&gt;Answer Line&lt;\/a&gt;&lt;\/h3&gt;\r\n      &lt;div style=\&quot;font-size:10pt;text-align:center;\&quot;&gt;\r\n        Get answers and solutions from application&lt;br&gt;\r\n        experts over the phone.\r\n      &lt;\/div&gt;\r\n    &lt;\/div&gt;\r\n  &lt;\/div&gt;\r\n  &lt;p style=\&quot;clear:both\&quot;&gt;&amp;nbsp;&lt;\/p&gt;\r\n\r\n\r\n  \r\n  \r\n    &lt;div id=\&quot;videoTrainingFull\&quot; class=\&quot;frontCenter flyOut\&quot;&gt;\r\n      &lt;h3 style=\&quot;background-color:#246f8a;color:#FFFFFF;margin:2px;padding:2px 3px 0px 3px;text-transform:uppercase;\&quot; class=\&quot;ui-corner-all\&quot; id=\&quot;videoTrainingFull_title\&quot;&gt;\r\n      &lt;a href=\&quot;#\&quot; style=\&quot;text-decoration:none;color:#FFFFFF;font-weight:bold;float:right;\&quot; onClick=\&quot;closeFlyOuts();\&quot;&gt;X&lt;\/a&gt;\r\n      &lt;span id=\&quot;flyOutTitleVideoTraining\&quot;&gt;Video Training&lt;\/span&gt;\r\n      &lt;\/h3&gt;\r\n      &lt;div style=\&quot;overflow:auto;text-align:left;font-size:10pt;font-famiy:verdana,arial,sans-serif;height:255px;\&quot;&gt;\r\n        &lt;div class=\&quot;filmBox\&quot; onClick=\&quot;launchVideo('mi1_preparing_defaults')\&quot;&gt;\r\n          &lt;img src=\&quot;\/linksweb\/images\/mi1_prep_settings.png\&quot; style=\&quot;float:left;margin-right:5px;\&quot; alt=\&quot;\&quot;&gt;\r\n          Mass Immunizations:&lt;br&gt;Preparing Default Settings&lt;br&gt;\r\n          &lt;span style=\&quot;font-weight:bold\&quot;&gt;Run Time:&lt;\/span&gt; 07:19&lt;br&gt;\r\n          &lt;span style=\&quot;font-weight:bold\&quot;&gt;Format:&lt;\/span&gt; MP4\r\n        &lt;\/div&gt;\r\n        &lt;div class=\&quot;filmBox\&quot; onClick=\&quot;launchVideo('mi2_bar_code_lot_number_scan_sheet')\&quot;&gt;\r\n          &lt;img src=\&quot;\/linksweb\/images\/mi2_barcode_lot_number.png\&quot; style=\&quot;float:left;margin-right:5px;\&quot; alt=\&quot;\&quot;&gt;\r\n          Mass Immunizations: Preparing Bar Code Lot Number Sheets&lt;br&gt;\r\n          &lt;span style=\&quot;font-weight:bold\&quot;&gt;Run Time:&lt;\/span&gt; 05:38&lt;br&gt;\r\n          &lt;span style=\&quot;font-weight:bold\&quot;&gt;Format:&lt;\/span&gt; MP4\r\n        &lt;\/div&gt;\r\n        &lt;div class=\&quot;filmBox\&quot; onClick=\&quot;launchVideo('mi3_bar_code_vaccinator_scan_sheet')\&quot;&gt;\r\n          &lt;img src=\&quot;\/linksweb\/images\/mi3_barcode_vaccinator.png\&quot; style=\&quot;float:left;margin-right:5px;\&quot; alt=\&quot;\&quot;&gt;\r\n          Mass Immunizations: Preparing Bar Code Vaccinator Sheets&lt;br&gt;\r\n          &lt;span style=\&quot;font-weight:bold\&quot;&gt;Run Time:&lt;\/span&gt; 04:02&lt;br&gt;\r\n          &lt;span style=\&quot;font-weight:bold\&quot;&gt;Format:&lt;\/span&gt; MP4\r\n        &lt;\/div&gt;\r\n        &lt;div class=\&quot;filmBox\&quot; onClick=\&quot;launchVideo('mi4_use_during_event')\&quot;&gt;\r\n          &lt;img src=\&quot;\/linksweb\/images\/mi4_use_during_event.png\&quot; style=\&quot;float:left;margin-right:5px;\&quot; alt=\&quot;\&quot;&gt;\r\n          Mass Immunizations:&lt;br&gt;Use During An Event&lt;br&gt;\r\n          &lt;span style=\&quot;font-weight:bold\&quot;&gt;Run Time:&lt;\/span&gt; 04:54&lt;br&gt;\r\n          &lt;span style=\&quot;font-weight:bold\&quot;&gt;Format:&lt;\/span&gt; MP4\r\n        &lt;\/div&gt;\r\n        &lt;div class=\&quot;filmBox\&quot; onClick=\&quot;launchVideo('mi5_waiting_room')\&quot;&gt;\r\n          &lt;img src=\&quot;\/linksweb\/images\/mi5_waiting_room.png\&quot; style=\&quot;float:left;margin-right:5px;\&quot; alt=\&quot;\&quot;&gt;\r\n          Mass Immunizations:&lt;br&gt;Waiting Room Feature&lt;br&gt;\r\n          &lt;span style=\&quot;font-weight:bold\&quot;&gt;Run Time:&lt;\/span&gt; 05:43&lt;br&gt;\r\n          &lt;span style=\&quot;font-weight:bold\&quot;&gt;Format:&lt;\/span&gt; MP4\r\n        &lt;\/div&gt;\r\n        &lt;div class=\&quot;filmBox\&quot; onClick=\&quot;launchVideo('mi6_bar_code_scanning')\&quot;&gt;\r\n          &lt;img src=\&quot;\/linksweb\/images\/mi6_barcode_use.png\&quot; style=\&quot;float:left;margin-right:5px;\&quot; alt=\&quot;\&quot;&gt;\r\n          Mass Immunizations:&lt;br&gt;Bar Code Use&lt;br&gt;\r\n          &lt;span style=\&quot;font-weight:bold\&quot;&gt;Run Time:&lt;\/span&gt; 05:16&lt;br&gt;\r\n          &lt;span style=\&quot;font-weight:bold\&quot;&gt;Format:&lt;\/span&gt; MP4\r\n        &lt;\/div&gt;\r\n        \r\n          &lt;div class=\&quot;filmBox\&quot; onClick=\&quot;launchVideo('voms1_navigating_vaccine_ordering_and_transfer_menu_options')\&quot;&gt;\r\n            &lt;img src=\&quot;\/linksweb\/images\/voms1_navigating.png\&quot; style=\&quot;float:left;margin-right:5px;\&quot; alt=\&quot;\&quot;&gt;\r\n            V.O.M.S.: Vaccine Ordering and Transfer Menu Options&lt;br&gt;\r\n            &lt;span style=\&quot;font-weight:bold\&quot;&gt;Run Time:&lt;\/span&gt; 05:43&lt;br&gt;\r\n            &lt;span style=\&quot;font-weight:bold\&quot;&gt;Format:&lt;\/span&gt; MP4\r\n          &lt;\/div&gt;\r\n          &lt;div class=\&quot;filmBox\&quot; onClick=\&quot;launchVideo('voms2_vaccine_ordering')\&quot;&gt;\r\n            &lt;img src=\&quot;\/linksweb\/images\/voms2_ordering.png\&quot; style=\&quot;float:left;margin-right:5px;\&quot; alt=\&quot;\&quot;&gt;\r\n            V.O.M.S.:&lt;br&gt;Vaccine Ordering&lt;br&gt;\r\n            &lt;span style=\&quot;font-weight:bold\&quot;&gt;Run Time:&lt;\/span&gt; 06:48&lt;br&gt;\r\n            &lt;span style=\&quot;font-weight:bold\&quot;&gt;Format:&lt;\/span&gt; MP4\r\n          &lt;\/div&gt;\r\n          &lt;div class=\&quot;filmBox\&quot; onClick=\&quot;launchVideo('voms3_receiving_vaccine')\&quot;&gt;\r\n            &lt;img src=\&quot;\/linksweb\/images\/voms3_receiving_inventory.png\&quot; style=\&quot;float:left;margin-right:5px;\&quot; alt=\&quot;\&quot;&gt;\r\n            V.O.M.S.: Receiving Vaccine into Inventory&lt;br&gt;\r\n            &lt;span style=\&quot;font-weight:bold\&quot;&gt;Run Time:&lt;\/span&gt; 05:57&lt;br&gt;\r\n            &lt;span style=\&quot;font-weight:bold\&quot;&gt;Format:&lt;\/span&gt; MP4\r\n          &lt;\/div&gt;\r\n          &lt;div class=\&quot;filmBox\&quot; onClick=\&quot;launchVideo('pa1_preregistration_checklist')\&quot;&gt;\r\n            &lt;img src=\&quot;\/linksweb\/images\/pa1_preregistration_checklist.png\&quot; style=\&quot;float:left;margin-right:5px;\&quot; alt=\&quot;\&quot;&gt;\r\n            Provider Agreement:&lt;br&gt;Pre-Registration Checklist&lt;br&gt;\r\n            &lt;span style=\&quot;font-weight:bold\&quot;&gt;Run Time:&lt;\/span&gt; 07.31&lt;br&gt;\r\n            &lt;span style=\&quot;font-weight:bold\&quot;&gt;Format:&lt;\/span&gt; MP4\r\n          &lt;\/div&gt;\r\n          &lt;div class=\&quot;filmBox\&quot; onClick=\&quot;launchVideo('pa2_new_provider_agreement')\&quot;&gt;\r\n            &lt;img src=\&quot;\/linksweb\/images\/pa2_new_provider_agreement.png\&quot; style=\&quot;float:left;margin-right:5px;\&quot; alt=\&quot;\&quot;&gt;\r\n            Provider Agreement: New Enrollment&lt;br&gt;\r\n            &lt;span style=\&quot;font-weight:bold\&quot;&gt;Run Time:&lt;\/span&gt; 07:57&lt;br&gt;\r\n            &lt;span style=\&quot;font-weight:bold\&quot;&gt;Format:&lt;\/span&gt; MP4\r\n          &lt;\/div&gt;\r\n          &lt;div class=\&quot;filmBox\&quot; onClick=\&quot;launchVideo('pa3_renewing_provider_agreement')\&quot;&gt;\r\n            &lt;img src=\&quot;\/linksweb\/images\/pa3_renewing_provider_agreement.png\&quot; style=\&quot;float:left;margin-right:5px;\&quot; alt=\&quot;\&quot;&gt;\r\n            Provider Agreement: Renewal Enrollment&lt;br&gt;\r\n            &lt;span style=\&quot;font-weight:bold\&quot;&gt;Run Time:&lt;\/span&gt; 08:41&lt;br&gt;\r\n            &lt;span style=\&quot;font-weight:bold\&quot;&gt;Format:&lt;\/span&gt; MP4\r\n          &lt;\/div&gt;\r\n        \r\n      &lt;\/div&gt;\r\n    &lt;\/div&gt;\r\n    \r\n\r\n\r\n\r\n\r\n  &lt;div id=\&quot;phoneListFull\&quot; class=\&quot;frontCenter flyOut\&quot;&gt;\r\n    &lt;h3 style=\&quot;background-color:#246f8a;color:#FFFFFF;margin:2px;padding:2px 3px 0px 3px;text-transform:uppercase;\&quot; class=\&quot;ui-corner-all\&quot; id=\&quot;phoneListFull_title\&quot;&gt;\r\n    &lt;a href=\&quot;#\&quot; style=\&quot;text-decoration:none;color:#FFFFFF;font-weight:bold;float:right;\&quot; onClick=\&quot;closeFlyOuts();\&quot;&gt;X&lt;\/a&gt;\r\n    &lt;span id=\&quot;flyOutTitleAnswerLine\&quot;&gt;Answer Line&lt;\/span&gt;\r\n    &lt;\/h3&gt;\r\n    \r\n      \r\n      \r\n        &lt;!-- ******************* BEGINNING OF I_CALL.INC CONTENT ******************* --&gt;\n&lt;p style=\&quot;font-weight:bold\&quot;&gt;All Regions:&lt;\/p&gt;\n&lt;p&gt;Line Available 8AM-4.30PM Central Time&lt;\/p&gt;\n&lt;div style=\&quot;text-align:left;float:left;width:48%;border-right:1px solid #cccccc;\&quot;&gt;\n  &lt;p&gt;Metro Region 1&lt;br&gt;(504)-599-0128&lt;\/p&gt;\n  &lt;p&gt;Capitol Region 2&lt;br&gt;(225)-342-2012&lt;\/p&gt;\n  &lt;p&gt;Region 3&lt;br&gt;(985)-447-0916 Ext. 350&lt;\/p&gt;\n  &lt;p&gt;Acadian Region 4&lt;br&gt;(337)-262-5620&lt;\/p&gt;\n  &lt;p&gt;Southwest Region 5&lt;br&gt;(337)-475-3245&lt;\/p&gt;\n&lt;\/div&gt;\n&lt;div style=\&quot;text-align:left;float:left;width:48%;\&quot;&gt;\n  &lt;p&gt;Central Region 6&lt;br&gt;318-484-2161&lt;\/p&gt;\n  &lt;p&gt;Northwest Region 7&lt;br&gt;318-676-7474&lt;\/p&gt;\n  &lt;p&gt;Northeast Region 8&lt;br&gt;318-361-7217&lt;\/p&gt;\n  &lt;p&gt;Region 9&lt;br&gt;985-543-4857&lt;\/p&gt;\n&lt;\/div&gt;\n&lt;!-- ********************** END OF I_CALL.INC CONTENT ********************** --&gt;\r\n      \r\n    \r\n  &lt;\/div&gt;\r\n&lt;\/div&gt;\r\n\r\n\r\n&lt;!-- REACH END --&gt;\n\n     \n\n    \n      &lt;br&gt;&lt;img src=\&quot;\/linksweb\/images\/product_logo.png\&quot; alt=\&quot;Product Logo\&quot;\n               style=\&quot;border: none; width: 100px; height: 127px;\&quot;&gt;\n    \n    &lt;br&gt;&lt;b&gt;Version: 5.25.1&lt;\/b&gt;\n    &lt;br&gt;&lt;br&gt;\n\n        &lt;!-- start of OPS-2141 added e-mail link and phone for LA Prod --&gt;\n&lt;table bgcolor=\&quot;#FFFFFF\&quot; border=\&quot;0\&quot; cellpadding=\&quot;0\&quot; cellspacing=\&quot;0\&quot; align=\&quot;center\&quot;  &gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n        &lt;TD align=\&quot;center\&quot; colSpan=3 background=\&quot;\/linksweb\/images\/bg_color60.gif\&quot; height=\&quot;25\&quot;&gt;\n                &lt;SPAN class=CenterHead&gt;&lt;font color=#800000 size=2 face=\&quot;Verdana, Arial, Helvetica,Tahoma\&quot;&gt;&lt;b&gt;Help Desk &lt;\/b&gt;&lt;\/SPAN&gt;&lt;IMG height=4 alt=\&quot;\&quot; src=\&quot; images\/spacer.gif\&quot; width=1 border=0&gt;&lt;\/TD&gt;\n&lt;\/tr&gt;\n&lt;tr&gt;\n        &lt;TD width=1 bgColor=#d6dfe8&gt;&lt;IMG height=1 alt=\&quot;\&quot; src=\&quot; images\/spacer.gif\&quot; width=1 border=0&gt;&lt;BR&gt;&lt;\/TD&gt;\n    &lt;TD bgColor=#ffffff&gt;\n                &lt;TABLE cellSpacing=0 cellPadding=0 border=0 &gt;\n        &lt;TBODY&gt;\n        &lt;TR&gt;\n                        &lt;TD width=12 bgColor=\&quot;#ffffff\&quot; &gt;&lt;IMG height=1 alt=\&quot;\&quot; src=\&quot;images\/spacer.gif\&quot; width=1 border=0&gt;&lt;\/TD&gt;\n                        &lt;TD align=\&quot;center\&quot; valign=\&quot;top\&quot; bgColor=\&quot;#ffffff\&quot;&gt;1-844-216-4410&lt;\/b&gt;&lt;TD width=12 bgColor=#ffffff &gt;&lt;IMG height=1 alt=\&quot;\&quot; src=\&quot; images\/spacer.gif\&quot; width=1 border=0&gt;&lt;\/TD&gt;\n                &lt;\/TR&gt;\n                &lt;TR&gt;\n                        &lt;TD width=12 bgColor=\&quot;#ffffff\&quot;&gt;&lt;IMG height=1 alt=\&quot;\&quot; src=\&quot;images\/spacer.gif\&quot; width=1 border=0&gt;&lt;\/TD&gt;\n            &lt;TD align=\&quot;center\&quot; valign=\&quot;top\&quot;&gt;&lt;br&gt;&lt;a href=\&quot;mailto:lalinks@scientifictechnologiescorporation.zohosupport.com?subject=Louisiana LINKS Support\&quot;&gt;\n                                &lt;img src=\&quot;\/linksweb\/images\/mail_button.gif\&quot; width=\&quot;49\&quot; height=\&quot;19\&quot; border=\&quot;0\&quot; alt=\&quot;Send E-Mail to Louisiana LINKS Support Help Desk\&quot; align=\&quot;top\&quot;&gt;&lt;\/b&gt;&lt;\/br&gt;&lt;br&gt;\n                        &lt;\/TD&gt;\n                &lt;\/TR&gt;\n                &lt;\/TBODY&gt;\n                &lt;\/TABLE&gt;\n&lt;tr&gt;\n        &lt;TD bgColor=#d6dfe8 colSpan=3&gt;&lt;!--&lt;IMG height=1 alt=\&quot;\&quot; src=\&quot; images\/spacer.gif\&quot; width=1 border=0&gt;--&gt;&lt;\/TD&gt;\n&lt;\/tr&gt;\n&lt;\/tbody&gt;\n&lt;\/table&gt;\n&lt;!-- end of OPS-2141 added e-mail link and phone for LA Prod --&gt;\n\n    &lt;a href=\&quot;http:\/\/www.stchome.com\&quot;&gt;\n      &lt;img src=\&quot;\/linksweb\/images\/stc_global_logo.png\&quot; alt=\&quot;STC Logo\&quot;\n           style=\&quot;border: none; width: 90px; height: 63px;\&quot;&gt;\n    &lt;\/a&gt;\n  \n\n&quot;);resizePageCheck();oldIEAutofocusHack();oldIEWarningMessage();$('.hideOnLoad').hide();"
+           onUnLoad="">
+   
+  
+  <div id="systemPopup" style="display:none;">
+    <div id="systemPopupHeader" >
+      <a href="#" onclick="hideSystemPopup(true);" style="color:#FFFFFF">[X]</a>
+      System Popup
+    </div>
+    <div id="systemPopupUserMessage"></div>
+  </div>
+  
+    
+    
+      <div id="main" class="normalPage">
+        <div id="topRoundGutter">
+          <img src="/linksweb/images/curveNW.gif" alt="" style="margin: 0px 0px">&nbsp;&nbsp;
+        </div>
+    
+  
+  
+    <div id="menu">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- WEB-INF/jspf/mainMenu.jspf -->
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+      
+      
+        
+          
+         
+              <img src="/linksweb/images/linksS.gif" alt="logo"
+              height="130" width="130">
+         
+       
+    <ul id="nav">
+      
+<!-- WEB-INF/jspf/menu/homeMenuItems.jspf -->
+
+
+
+
+
+
+
+
+<li id="MMI_1_TITLE" class="open"><span class="nav_item"><a id="MMI_1_MENU" href="javascript:navToggle('MMI_1_TITLE');save_menu_state();">Main</a></span>
+
+  <ul id="MMI_1">
+      <li>
+        <!-- If the user is not logged in enable the login link. Otherwise disable it -->
+        
+          
+            <a href="/linksweb/main.jsp" class="mainmenusub">Home</a>
+          
+          
+        
+      </li>
+      
+        <li><a href="/linksweb/login.jsp;jsessionid=0119CA0201B66470E188CA66C5D01116" class="mainmenusub">Login</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  </ul>
+</li>
+
+
+      
+      
+      
+      
+        
+ <!-- WEB-INF/jspf/menu/patientMenuItems.jspf -->
+ <li id="MMI_2_TITLE" class=""><span class="nav_item"><a id="MMI_2_MENU" href="javascript:navToggle('MMI_2_TITLE');save_menu_state();">Patient</a></span>
+
+          <!-- Enable the search link if an irms has been selected. If the client has access to
+                   add new patients then enable the Search/Add link -->
+          <ul id="MMI_2">
+            <li>
+              
+            
+              <a class="mainmenusubunavail">
+                
+                Search
+              </a>
+            
+            </li>
+            <!-- If a patient and facility has been selected then enable the waitingroom link to display patient details.-->
+            
+            <!-- If a patient has been selected then enable the demographics link to display
+                       patient details. -->
+            <li>
+              
+                
+                
+                  <a class="mainmenusubunavail">
+                
+              
+              Demographics
+              </a>
+            </li>
+            
+          
+          
+          
+          <!-- If a patient has been selected then enable the insuranceInfo link to display. -->
+          
+            
+          
+          <li>
+            
+          </li>
+        </ul>
+        </li>
+
+      
+      
+      
+        
+
+<li id="MMI_4_TITLE" class=""><span class="nav_item"><a id="MMI_4_MENU" href="javascript:navToggle('MMI_4_TITLE');save_menu_state();">Vaccinations</a></span>
+
+  <ul id="MMI_4">
+    
+      
+      
+        <li>
+          <a class="mainmenusubunavail">
+            
+            View
+          </a>
+        </li>
+        <li><a class="mainmenusubunavail">Forecast</a></li>
+        <li><a class="mainmenusubunavail">Summary</a></li>
+      
+    
+    
+      
+    
+  </ul>
+</li>
+
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+          
+          
+        
+      
+      
+      
+      
+      
+      
+      
+      
+            
+            
+      
+<li id="MMI_41_TITLE" class=""><span class="nav_item"><a id="MMI_41_MENU" href="javascript:navToggle('MMI_41_TITLE');save_menu_state();">Scheduled Reports</a></span>
+
+  <ul id="MMI_41">
+   
+    <li>
+      <a href="/linksweb/scheduledReportReceived/viewScheduledReports.do2" class="mainmenusub" >Received Reports</a>
+    </li>
+  </ul>
+</li>
+
+      
+        <li class="navBullet">
+          <span class="nav_item">
+            <a class="noline"
+              
+              >Job Queue
+            </a>
+          </span>
+        </li>
+      
+      
+        <li class="navBullet">
+          <span class="nav_item">
+            <a class="noline"
+              
+              >Change Password
+            </a>
+          </span>
+        </li>
+      
+      
+        
+        
+        
+      
+      
+      
+            
+            
+        <li class="navBullet">
+          <span class="nav_item"><a href="#" onClick="openReach(); return false;" class="noline">
+            Answers
+          </a></span>
+        </li>
+      </ul>
+    
+  
+
+<!-- REACH START -->
+<div id="reach" style="display:none;text-align:center;" title="REACH - Roadmap to Education, Answers, Competency and Hints">
+
+  <div class="sideBox" id="videoTraining">
+    <div class="reachInterior" style="background: url('/linksweb/images/film.png') no-repeat left;" onClick="flyOut('videoTraining')">
+      <h3>Video Trainings</h3>
+      
+        
+        
+          <div style="font-size:10pt;font-weight:bold;text-align:center;">
+            <img src="/linksweb/images/filmStrip.png" alt="">
+          </div>
+        
+      
+    </div>
+  </div>
+
+  
+  <div class="sideBox">
+    
+    <div class="reachInterior" style="background: url('/linksweb/images/document.png;jsessionid=0119CA0201B66470E188CA66C5D01116') no-repeat left;">
+      <h3>Documentation</h3>
+      <div style="font-size:10pt;text-align:center;">
+       
+        
+        
+          
+        
+      
+        
+        
+        <a target="_blank" href="http://documentation.stchome.com">
+          LINKS Documentation Portal
+        </a>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+  <div class="sideBox" id="phoneList">
+    <div class="reachInterior" style="background: url('/linksweb/images/phone.png') no-repeat left;">
+      <h3><a href="javascript:flyOut('phoneList');" class="nolineonly" onClick="helpRefCall=true;" id="answerLine">Answer Line</a></h3>
+      <div style="font-size:10pt;text-align:center;">
+        Get answers and solutions from application<br>
+        experts over the phone.
+      </div>
+    </div>
+  </div>
+  <p style="clear:both">&nbsp;</p>
+
+
+  
+  
+    <div id="videoTrainingFull" class="frontCenter flyOut">
+      <h3 style="background-color:#246f8a;color:#FFFFFF;margin:2px;padding:2px 3px 0px 3px;text-transform:uppercase;" class="ui-corner-all" id="videoTrainingFull_title">
+      <a href="#" style="text-decoration:none;color:#FFFFFF;font-weight:bold;float:right;" onClick="closeFlyOuts();">X</a>
+      <span id="flyOutTitleVideoTraining">Video Training</span>
+      </h3>
+      <div style="overflow:auto;text-align:left;font-size:10pt;font-famiy:verdana,arial,sans-serif;height:255px;">
+        <div class="filmBox" onClick="launchVideo('mi1_preparing_defaults')">
+          <img src="/linksweb/images/mi1_prep_settings.png" style="float:left;margin-right:5px;" alt="">
+          Mass Immunizations:<br>Preparing Default Settings<br>
+          <span style="font-weight:bold">Run Time:</span> 07:19<br>
+          <span style="font-weight:bold">Format:</span> MP4
+        </div>
+        <div class="filmBox" onClick="launchVideo('mi2_bar_code_lot_number_scan_sheet')">
+          <img src="/linksweb/images/mi2_barcode_lot_number.png" style="float:left;margin-right:5px;" alt="">
+          Mass Immunizations: Preparing Bar Code Lot Number Sheets<br>
+          <span style="font-weight:bold">Run Time:</span> 05:38<br>
+          <span style="font-weight:bold">Format:</span> MP4
+        </div>
+        <div class="filmBox" onClick="launchVideo('mi3_bar_code_vaccinator_scan_sheet')">
+          <img src="/linksweb/images/mi3_barcode_vaccinator.png" style="float:left;margin-right:5px;" alt="">
+          Mass Immunizations: Preparing Bar Code Vaccinator Sheets<br>
+          <span style="font-weight:bold">Run Time:</span> 04:02<br>
+          <span style="font-weight:bold">Format:</span> MP4
+        </div>
+        <div class="filmBox" onClick="launchVideo('mi4_use_during_event')">
+          <img src="/linksweb/images/mi4_use_during_event.png" style="float:left;margin-right:5px;" alt="">
+          Mass Immunizations:<br>Use During An Event<br>
+          <span style="font-weight:bold">Run Time:</span> 04:54<br>
+          <span style="font-weight:bold">Format:</span> MP4
+        </div>
+        <div class="filmBox" onClick="launchVideo('mi5_waiting_room')">
+          <img src="/linksweb/images/mi5_waiting_room.png" style="float:left;margin-right:5px;" alt="">
+          Mass Immunizations:<br>Waiting Room Feature<br>
+          <span style="font-weight:bold">Run Time:</span> 05:43<br>
+          <span style="font-weight:bold">Format:</span> MP4
+        </div>
+        <div class="filmBox" onClick="launchVideo('mi6_bar_code_scanning')">
+          <img src="/linksweb/images/mi6_barcode_use.png" style="float:left;margin-right:5px;" alt="">
+          Mass Immunizations:<br>Bar Code Use<br>
+          <span style="font-weight:bold">Run Time:</span> 05:16<br>
+          <span style="font-weight:bold">Format:</span> MP4
+        </div>
+        
+          <div class="filmBox" onClick="launchVideo('voms1_navigating_vaccine_ordering_and_transfer_menu_options')">
+            <img src="/linksweb/images/voms1_navigating.png" style="float:left;margin-right:5px;" alt="">
+            V.O.M.S.: Vaccine Ordering and Transfer Menu Options<br>
+            <span style="font-weight:bold">Run Time:</span> 05:43<br>
+            <span style="font-weight:bold">Format:</span> MP4
+          </div>
+          <div class="filmBox" onClick="launchVideo('voms2_vaccine_ordering')">
+            <img src="/linksweb/images/voms2_ordering.png" style="float:left;margin-right:5px;" alt="">
+            V.O.M.S.:<br>Vaccine Ordering<br>
+            <span style="font-weight:bold">Run Time:</span> 06:48<br>
+            <span style="font-weight:bold">Format:</span> MP4
+          </div>
+          <div class="filmBox" onClick="launchVideo('voms3_receiving_vaccine')">
+            <img src="/linksweb/images/voms3_receiving_inventory.png" style="float:left;margin-right:5px;" alt="">
+            V.O.M.S.: Receiving Vaccine into Inventory<br>
+            <span style="font-weight:bold">Run Time:</span> 05:57<br>
+            <span style="font-weight:bold">Format:</span> MP4
+          </div>
+          <div class="filmBox" onClick="launchVideo('pa1_preregistration_checklist')">
+            <img src="/linksweb/images/pa1_preregistration_checklist.png" style="float:left;margin-right:5px;" alt="">
+            Provider Agreement:<br>Pre-Registration Checklist<br>
+            <span style="font-weight:bold">Run Time:</span> 07.31<br>
+            <span style="font-weight:bold">Format:</span> MP4
+          </div>
+          <div class="filmBox" onClick="launchVideo('pa2_new_provider_agreement')">
+            <img src="/linksweb/images/pa2_new_provider_agreement.png" style="float:left;margin-right:5px;" alt="">
+            Provider Agreement: New Enrollment<br>
+            <span style="font-weight:bold">Run Time:</span> 07:57<br>
+            <span style="font-weight:bold">Format:</span> MP4
+          </div>
+          <div class="filmBox" onClick="launchVideo('pa3_renewing_provider_agreement')">
+            <img src="/linksweb/images/pa3_renewing_provider_agreement.png" style="float:left;margin-right:5px;" alt="">
+            Provider Agreement: Renewal Enrollment<br>
+            <span style="font-weight:bold">Run Time:</span> 08:41<br>
+            <span style="font-weight:bold">Format:</span> MP4
+          </div>
+        
+      </div>
+    </div>
+    
+
+
+
+
+  <div id="phoneListFull" class="frontCenter flyOut">
+    <h3 style="background-color:#246f8a;color:#FFFFFF;margin:2px;padding:2px 3px 0px 3px;text-transform:uppercase;" class="ui-corner-all" id="phoneListFull_title">
+    <a href="#" style="text-decoration:none;color:#FFFFFF;font-weight:bold;float:right;" onClick="closeFlyOuts();">X</a>
+    <span id="flyOutTitleAnswerLine">Answer Line</span>
+    </h3>
+    
+      
+      
+        <!-- ******************* BEGINNING OF I_CALL.INC CONTENT ******************* -->
+<p style="font-weight:bold">All Regions:</p>
+<p>Line Available 8AM-4.30PM Central Time</p>
+<div style="text-align:left;float:left;width:48%;border-right:1px solid #cccccc;">
+  <p>Metro Region 1<br>(504)-599-0128</p>
+  <p>Capitol Region 2<br>(225)-342-2012</p>
+  <p>Region 3<br>(985)-447-0916 Ext. 350</p>
+  <p>Acadian Region 4<br>(337)-262-5620</p>
+  <p>Southwest Region 5<br>(337)-475-3245</p>
+</div>
+<div style="text-align:left;float:left;width:48%;">
+  <p>Central Region 6<br>318-484-2161</p>
+  <p>Northwest Region 7<br>318-676-7474</p>
+  <p>Northeast Region 8<br>318-361-7217</p>
+  <p>Region 9<br>985-543-4857</p>
+</div>
+<!-- ********************** END OF I_CALL.INC CONTENT ********************** -->
+      
+    
+  </div>
+</div>
+
+
+<!-- REACH END -->
+
+     
+
+    
+      <br><img src="/linksweb/images/product_logo.png" alt="Product Logo"
+               style="border: none; width: 100px; height: 127px;">
+    
+    <br><b>Version: 5.25.1</b>
+    <br><br>
+
+        <!-- start of OPS-2141 added e-mail link and phone for LA Prod -->
+<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" align="center"  >
+<tbody>
+<tr>
+        <TD align="center" colSpan=3 background="/linksweb/images/bg_color60.gif" height="25">
+                <SPAN class=CenterHead><font color=#800000 size=2 face="Verdana, Arial, Helvetica,Tahoma"><b>Help Desk </b></SPAN><IMG height=4 alt="" src=" images/spacer.gif" width=1 border=0></TD>
+</tr>
+<tr>
+        <TD width=1 bgColor=#d6dfe8><IMG height=1 alt="" src=" images/spacer.gif" width=1 border=0><BR></TD>
+    <TD bgColor=#ffffff>
+                <TABLE cellSpacing=0 cellPadding=0 border=0 >
+        <TBODY>
+        <TR>
+                        <TD width=12 bgColor="#ffffff" ><IMG height=1 alt="" src="images/spacer.gif" width=1 border=0></TD>
+                        <TD align="center" valign="top" bgColor="#ffffff">1-844-216-4410</b><TD width=12 bgColor=#ffffff ><IMG height=1 alt="" src=" images/spacer.gif" width=1 border=0></TD>
+                </TR>
+                <TR>
+                        <TD width=12 bgColor="#ffffff"><IMG height=1 alt="" src="images/spacer.gif" width=1 border=0></TD>
+            <TD align="center" valign="top"><br><a href="mailto:lalinks@scientifictechnologiescorporation.zohosupport.com?subject=Louisiana LINKS Support">
+                                <img src="/linksweb/images/mail_button.gif" width="49" height="19" border="0" alt="Send E-Mail to Louisiana LINKS Support Help Desk" align="top"></b></br><br>
+                        </TD>
+                </TR>
+                </TBODY>
+                </TABLE>
+<tr>
+        <TD bgColor=#d6dfe8 colSpan=3><!--<IMG height=1 alt="" src=" images/spacer.gif" width=1 border=0>--></TD>
+</tr>
+</tbody>
+</table>
+<!-- end of OPS-2141 added e-mail link and phone for LA Prod -->
+
+    <a href="http://www.stchome.com">
+      <img src="/linksweb/images/stc_global_logo.png" alt="STC Logo"
+           style="border: none; width: 90px; height: 63px;">
+    </a>
+  
+
+
+    </div>
+  
+  
+    
+    
+      <div id="waiting" class="normalContent" style="text-align:center;display:none;">
+          <img src="/linksweb/images/waiting.gif" alt="Loading, please wait ...">
+          <br><br>
+          Loading content, please wait ...
+        <p style="clear:both;margin:0;padding:0;">&nbsp;</p>
+      </div>
+      <div id="content" class="normalContent" style="display:block;">
+    
+  
+  
+  
+    
+<!-- WEB-INF/jspf/userAndDateInfo.jspf -->
+
+
+<div id="userAndDateInfo" class="smallfont">
+  <span style="position: absolute; right: 10px;line-height: 10px;">
+    
+  </span>
+
+  <span style="position: absolute; right: 10px; line-height: 35px; color: red">
+    
+  </span>
+  
+  
+    
+     
+     <span style="position: absolute; right: 10px; line-height: 95px;">
+     
+  
+  
+    
+    <img src="/linksweb/images/alert.png;jsessionid=0119CA0201B66470E188CA66C5D01116" alt="Alert icon" id="browserVersionAlertImg" title="The browser you are currently using is not modern enough to use this application. Certain features may not look or behave the same as more modern browsers." style="display: none; position: absolute; left: -22px; width: 22px; height: 20px;">
+    <strong>Date:</strong>
+    &nbsp;October 21, 2019
+  </span>
+  
+  <span style="line-height: 35px;">
+    
+      
+      
+        &nbsp;
+      
+    
+  </span>
+</div>
+  
+  
+  
+    
+    
+      
+      
+    
+  
+  
+    
+
+  
+
+  
+  
+  
+  
+  
+
+
+   <!-- ******************* BEGINNING OF I_MAIN.INC CONTENT ******************* --> 
+<TABLE border="0" cellspacing="0" cellpadding="0" width="100%">
+  <TR>
+    <TD valign="top">
+      <BR>
+<!-- #############Welcome################ -->
+<!-- zoho support chat -->
+	<wireless:isNotWirelessClient>
+	<TABLE border="0" cellspacing="0" cellpadding="0" width="100%" >
+	</wireless:isNotWirelessClient>
+	<wireless:isWirelessClient>
+
+    <TABLE border="0" cellspacing="0" cellpadding="0" align="left" width="100%">
+    </wireless:isWirelessClient>
+    <script type="text/javascript">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"a173a8e24c6df89e7d67af608b74b3940a3d6ebf89f9241b96fde668a5d394c80b4dad7ae4a94b6666d8f5bac360de94bb104edc5abe981d5a151800528b8a66", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");</script>
+    </TABLE>
+	</TABLE>
+      
+      <TABLE border="0" cellspacing="0" width="100%" cellpadding="2">
+	      <TR valign="middle" bgcolor="#DBEDFE">
+		      <TD align="Center"><font face="Times New Roman" size="+1"><b>
+	          Welcome to <br>
+	          LINKS, Louisiana Immunization Network<br> 
+	          Web Application<br>
+	          </b></font>
+	        </TD>
+        </TR>
+        <TR>
+          <TD align="jusitfy" valign="center"><font face="ARIAL">
+            <HR>
+	          This web application allows enrolled users to conveniently search for 
+            patients in the LINKS Central Registry and to view the patients' vaccination 
+            record.  In addition, authorized users can add and edit patient records and 
+            vaccination records, as well as maintain facility, physician, and lot number
+            data.
+            </font>
+          </TD>
+        </TR>
+     </TABLE>
+     
+     <BR>
+<!-- #############Beginning of Quick Access Links################ -->
+     <hr> 
+     <TABLE border="0" cellspacing="0" width="100%" cellpadding="2">
+	     <tr valign="middle" bgcolor="#DBEDFE">
+		     <td colspan="6" align="Center">
+		       <font face="Times New Roman" size="+1">
+		         Quick Access Links
+		       </font>
+		     </td>
+	     </TR>
+
+	       <td width="17%" align="Center">
+	         <a href="LINKS_DCNTR.html"><img src="./images/doc_ctr.gif" alt="LINKS Document Center Updated Aug 2016" border="0"></a>
+	       </td>
+
+
+	         <td width="17%" align="Center">
+	         <a href="LINKS_VFC.html"><img src="./images/vfc logo.jpg" alt="LINKS Document Center Updated 02/07/05" border="0" height=60 width=75></a>
+	       </td>
+
+
+		   <td width="17%" align="Center">
+		     <a href="LINKS_VIS.html"><img src="./images/vis logo.png" alt="LINKS FAQ's Updated 7/21/2006" border="0" height=60 width=65></a>
+		   </td>
+
+
+	         <td width="17%" align="Center">
+	         <a href="LINKS_AFIX.html"><img src="./images/afix_logo-black-vertical.png" alt="AFIX Document Updated Aug 2016" border="0" height=60 width=65></a>
+	       </td>
+
+
+	         <td width="16%" align="Center">
+	         <a href="LINKS_WEBHEPB.html"><img src="./images/webhepb logo.png" alt="LINKS Document Center Updated 02/07/05" border="0" height=60 width=65></a>
+	       </td>
+
+
+		   <td width="16%" align="Center">
+		     <a href="LINKS_MU.html"><img src="./images/MU.png" alt="Meaningful Use FAQ" border="0"></a>
+		   </td>
+
+<!--
+	         <td width="20%" align="Center">
+	         <a href="https://linkswebtest.oph.dhh.la.gov/ccm/login.jsp"><img src="./images/childcare.png" alt="Child Care Module" border="0" height=90 width=75></a>
+	       </td>
+ -->
+
+
+
+	     </TR>
+
+
+	     <TR>
+
+		     <td align="Center">
+		       <font face="Times New Roman" size="-1">
+			       Document Center
+			     </font>
+			   </td>
+
+
+			   <td align="Center">
+		       <font face="Times New Roman" size="-1">
+			       VFC/VOMS
+			     </font>
+			   </td>
+
+
+
+         		   <td align="Center">
+           		<font face="Times New Roman" size="-1">
+             		    VIS
+           		</font>
+         		</td>
+
+
+
+			   <td align="Center">
+		       <font face="Times New Roman" size="-1">
+			       AFIX
+			     </font>
+			   </td>
+
+
+
+			   <td align="Center">
+		       <font face="Times New Roman" size="-1">
+			       WEBHEPB
+			     </font>
+			   </td>
+
+
+
+
+         		   <td align="Center">
+           	      <font face="Times New Roman" size="-1">
+             		Meaningful Use
+           		</font>
+         		</td>
+
+
+<!--
+         <td align="Center" nowrap>
+           <font face="Times New Roman" size="-1">
+             Child Care
+           </font>
+         </td>
+
+ -->
+
+
+			 </TR>
+		</TABLE>
+   <hr> 
+   <br>
+   <TABLE border="0" cellspacing="0" width="100%" align="center"> 
+     <tr>
+	   <td colspan="1" align="center">
+         <h4><a href="https://www.youtube.com/playlist?list=PLhQRL_ZI06sw7LrVOvJDdysQu4t-Oyauh" target="_blank"><img src="./images/training_video_logo.PNG" border="0"></h4>
+	   </td>
+	 </tr>
+	 <TR>
+       <td colspan="1" align="center">
+         <h4><a href="LINKS_ENROLL.html"><img src="./images/Enrollment logo.png" border="0"></h4>
+	   </td>
+	 </TR>
+   </TABLE>
+  
+  <hr> 
+   <br>
+   <hr>
+   <br>
+   <TABLE border="0" cellspacing="0" width="100%" align="center">
+     <TR>
+       <td colspan="1" align="center">
+         <h4><a href="PROVIDER_RECERTIFICATION.html"><img src="./images/LA_Documentsbutton.jpg" border="0"></h4>
+			</td>
+	 </TR>
+   </TABLE>
+<!-- ###### LINKS Enrollment END ########### -->
+
+
+
+
+
+
+
+<!-- ############# Outage message 1 beginning ################ -->
+<hr>
+<br>
+<TABLE border="0" cellspacing="0" width="100%" cellpadding="2">
+  <TR>
+    <td colspan="3" align="center">
+		  <font color="Navy">
+			<img src="./images/Siren.gif" border="0" align="right"><img src="./images/Siren.gif" border="0" align="left"><h2><font color="red">ATTENTION LINKS USERS</font></h2>
+			<big><b> LINKS will be unavailable Wednesdays for system maintenance during the hours of 7pm-10pm CT.		We apologize for the inconvenience.</b></big>
+		  </font>	
+		</td> 
+      </TR>
+</table>
+<!-- ############# Outage message 1 end ################ -->
+
+
+
+
+<!-- ############# Emergency Note beginning ################ -->
+<hr>
+<br><!--
+<TABLE border="0" cellspacing="0" width="100%" cellpadding="2">
+  <TR>
+    <td colspan="3" align="center">
+		 <font size="3"><font color="Navy">
+			<img src="./images/Siren.gif" border="0" align="right"><font style="background-color:yellow"><h2><b><font color="red">ATTENTION LINKS USERS</font></h2>
+			<big><b>Site will be down for maintenance on Tuesday, January 23 at 8:30 PM  to 2:30 AM Central.</b> -->.   
+			</big>
+		  </font>	
+		</td> 
+      </TR>
+</table>
+<!-- ############# Emergency Note end ################ -->
+
+<!-- ###### Special Doc Banner Area ########### -->
+	  
+<!--	  <HR> -->   
+	  
+<!-- ###### CHILDREN VAC SCHEDULE ########### -->
+<!--
+   <br>
+   <TABLE border="0" cellspacing="0" width="100%">
+     <TR>
+       <td colspan="3" align="center">
+         <h4><a href="LINKS_DCNTR.html#VOMS_A1"><img src="./images/VacForChildrenVOMS.png" border="0"></h4>
+			</td>
+	 </TR>
+</TABLE>
+-->
+<!-- ###### CHILDREN VAC SCHEDULE END ########### -->
+
+
+<HR>
+<!-- ####### LINKS MAP ############ -->
+
+<TABLE border="0" cellspacing="0" width="100%"> 
+  <TR>
+    <TD valign="top" colspan="2">
+      <font face="Arial">
+	      <h3>Contact LINKS User Services in your Region:</h3>
+    </TD>
+  </TR>
+  <TR>
+	  <td valign="top">
+	    <img src="/linksweb/images/region_map500x420.gif" width="500" height="420" alt="Region Map" border=1>
+	  </td>
+
+
+<!-- ####### REGION DATA ############ -->
+    
+ 
+    </TD>
+	  <td align="Left"><font face="Arial">
+	    <B>Metro Region 1</B><br>
+	    Stephen Henry<br>
+	    504-599-0128<br>
+	    <a href="mailto:stephen.a.henry@la.gov">stephen.a.henry@la.gov</a><BR>
+	        
+      <BR>
+	  
+	    <B>Capitol Region 2</B><br>
+	    Cindy Aydell<br>
+	    225-342-2046<br>
+	    <a href="mailto:Cindy.aydell@la.gov">Cindy.aydell@la.gov</a><BR>
+	    	  
+	    <BR>
+
+	  
+	    <B>Region 3</B><br>
+	    Laurie Lapeyrouse<br>
+	    985-447-0916 Ext. 350<br>
+	    <a href="mailto:Laurie.Lapeyrouse@la.gov">Laurie.Lapeyrouse@la.gov</a><BR>
+	        
+      <BR>
+	  
+	    <B>Acadian Region 4</B><br>
+	    Amelia Landry<br>
+	    337-262-5620<br>
+	    <a href="mailto:Amelia.Landry@la.gov">Amelia.Landry@la.gov</a><BR>
+	  
+	    <BR>
+    
+      <B>Southwest Region 5</B><br>
+	    Shonna McCarthy-Lewis<br>
+	    337-475-3245<br>
+	    <a href="mailto:Shonna.McCarthy-Lewis@la.gov">Shonna.McCarthy-Lewis@la.gov</a>
+
+		<BR><br>	    
+
+	  <B>Central Region 6</B><br>  
+	    Kevin Bonton<br>
+	    318-484-2161<br>
+	    <a href="mailto:Kevin.Bonton@la.gov">Kevin.Bonton@la.gov</a><BR>
+	        
+      <BR>
+	  
+	    <B>Northwest Region 7</B><br>
+	    Louann Jackson<br>
+	    318-676-7474<br>
+	    <a href="mailto:Louann.Jackson@la.gov">Louann.Jackson@la.gov</a><BR>
+	  
+	    <BR>
+	  
+	    <B>Northeast Region 8</B><br>
+	    E. Joy Jordan<br>
+	    318-361-7217<br>
+      <a href="mailto:Joy.Jordan@la.gov">Joy.Jordan@la.gov</a><BR>
+	        
+      <BR>
+	  
+	    <B>Region 9</B><br>
+	    John Lyons<br>
+	    985-543-4857<br>
+      <a href="mailto:john.lyons@la.gov">john.lyons@la.gov</a><BR>
+	  </td>
+	</tr>
+</TABLE>
+
+<HR>
+<!-- ####### VALUEABLE LINKS ############ -->
+<h3>Valuable Links</h3>
+<ul>
+  <li><A href="http://www.shotsfortots.com/">Shots for Tots</A></li>
+  <li><A href="http://www.vaccinesafety.edu/">Institute for Vaccine Safety</A></li>
+  <li><A href="http://www.cdc.gov/vaccines/events/niiw/default.htm">National Infant Immunization Week (NIIW)</A></li>
+  <li><A href="http://www3.niaid.nih.gov/healthscience/healthtopics/vaccine/default.htm">National Institute of Allergy and Infectious Diseases</A></li>
+  <li><A href="http://www.chop.edu/consumer/jsp/microsite/microsite.jsp?id=75918">The Children's Hospital of Philadelphia Vaccine Education Center</A></li>
+  <li><A href="http://www.vaccine.org/members.htm#pkids">Parents of Kids with Infectious Diseases (PKIDs)</A></li>
+  <li>Visit the <A href="http://www.immregistries.org/">American Immunization Registry Association</A> homepage.</li>
+  <li>Take the Immunization Action Coalition <A href="http://www.immunize.org/catg.d/p7001qz.htm" target="_top">Immunization quiz</A> and see how you do.</li>
+  <li>For the latest Immunization Schedule and more visit the<A href="http://www.cdc.gov/nip/">CDC</A> website.</li>
+  <li>Check out the <A href="http://www.allkidscount.org" target="_top">All Kids Count</A> homepage.</li>
+  <li><A href="http://www.immunize.org/">Immunization Action Coalition</A></li>
+</ul>
+   
+       
+   
+      
+      
+      
+        
+<HR>
+<!-- ********************** END OF I_MAIN.INC CONTENT ********************** -->
+</td></tr></table>
+
+
+<!-- WEB-INF/jspf/standardFooter.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <p style="clear:both;margin:0;padding:0;">&nbsp;</p>
+      
+    </div>
+    <div id="infoAlert" style="display:none;">
+      <div id="infoAlertHeader">
+        <a href="#" onclick="hideInfoAlert(true);" style="color:#FFFFFF">[X]</a> System Alert
+      </div>
+      <div id="infoAlertUserMessage"></div>
+    </div>
+    
+      <div id="bottomRoundGutter">
+        <table id="nospaces">
+        <tr>
+          <td style="width: 1%"><img src="/linksweb/images/curveSW.gif" alt=""></td>
+          <td style="width: 98%" id="gutterBox">&nbsp;</td>
+          <td style="width: 1%"><img src="/linksweb/images/curveSE.gif" alt=""></td>
+        </tr>
+        </table></div>
+      <div id="sessionExpiredContent" style="display:none;">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table cellspacing="0" class="white">
+  <thead>
+    <tr>
+      <th class="tabletitle">
+        Louisiana Immunization Network for Kids Statewide
+      </th>
+    </tr>
+    <tr>
+      <th class="tablesubtitle" style="padding-left: .5em;">
+        Session Expired
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="lightgrey" style="padding-left: 1em; padding-right: 1em;">
+        <p>The current session has expired. To continue, please <a href="/linksweb/login.jsp;jsessionid=0119CA0201B66470E188CA66C5D01116">login again</a>.
+        
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+      </div>
+    
+  </body>
+</html>
+
